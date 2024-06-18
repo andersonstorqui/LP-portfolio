@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 42px 119px;
+}
+
+.header-a {
+  font-family: 'Poppins';
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 42px;
+  text-align: left;
+  text-decoration: none;
+  color: #070F18;
+  cursor: pointer;
+}
+
+.header-paragrafos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-paragrafos a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header-p {
+  padding-right: 25px;
+  color: #070F18;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+
+}
