@@ -3,11 +3,12 @@
   margin: 0;
 }
 
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 42px 119px;
+  padding: 42px 120px;
 }
 
 .header-a {
@@ -118,6 +119,8 @@ header {
 .serviços-one {
   text-align: center;
   margin-top: 100px;
+  padding: 42px 40px;
+
 }
 
 .serviços-one h4 {
@@ -238,5 +241,24 @@ header {
   text-align: center;
   border: none;
   margin-top: 20px;
+
+}
+
+/*portfolio*/
+
+.txt-portfolio{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 100px;
+  margin-top: 40px;
+
+}
+
+.img-portfolio{
+  display: flex;
+  justify-content: space-around;
+  padding: 42px 80px;
+
 
 }
