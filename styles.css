@@ -17,7 +17,6 @@ header {
   font-weight: 600;
   line-height: 42px;
   text-align: left;
-  text-decoration: none;
   color: #070F18;
   cursor: pointer;
 }
@@ -260,4 +259,11 @@ header {
   justify-content: space-around;
   padding: 42px 80px;
 
+}
+
+.article-portfolio{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
