@@ -84,3 +84,30 @@ header {
   border: none;
   margin-top: 25px;
 }
+
+/*clientes*/
+
+.clientes{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 42px 119px;
+
+}
+.clientes-h3 {}
+
+.clientes-h3 h3 {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #070F18;
+}
+
+.clientes-img {}
+
+.clientes-img img {
+  width: 87.19px;
+  height: 30px;
+}
